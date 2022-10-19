@@ -17,9 +17,53 @@ def contacts
   }
 end
 
+# contacts.map do |key, value|
+#   puts "#{key}: #{value}"
+#   value.map do |key1, value1|
+#     puts "  #{key1}: #{value1}"
+#     if key1 == :favorite_ice_cream_flavors
+#       value1.each {|flavour| puts "#{flavour}"}
+#     end
+#   end
+# end
+# # puts contacts["Freddie Mercury"][:favorite_ice_cream_flavors]
+
+
+# my_arr = []
+# contacts.map do |key, value|
+#   value.map do |key1, value2|
+#     puts "  #{key1}: #{value2}"
+#     if key1 == :email
+#       # puts 'nimefika'
+#       my_arr << value2
+#     end
+#   end
+# end
+# # pp my_arr
+
 def remove_strawberry(contacts)
   # your code here!
+  contacts.map do |key, value|
+    if key == "Freddie Mercury"
+    end
+  end
+
 end
+
 
 # print the output to the terminal for inspection
 pp remove_strawberry(contacts)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
